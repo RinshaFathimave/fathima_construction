@@ -1899,6 +1899,34 @@ pre code {
   }
 }
 
+@media (max-width:445px){
+  .container-fluid .container .row .col-lg-5 .p-5 {
+    /* padding: 2rem !important; */
+
+    padding: 3rem 2rem !important;
+
+}
+}
+
+@media (max-width:390px){
+  .col-lg-5 .d-flex .p-4 {
+    padding: 1rem !important;
+}
+}
+@media (max-width:400px){
+  .container-fluid .container .row .col-lg-5 .d-flex .response-p {
+    position: relative;
+    height: 110px;
+    
+  }
+  .response-c{
+    font-size: 15px;
+    position: absolute;
+    left: 38px;
+    top: 65px;
+  }
+}
+
 .form-control::-ms-expand {
   background-color: transparent;
   border: 0;

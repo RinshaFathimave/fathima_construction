@@ -119,3 +119,11 @@
     
 })(jQuery);
 
+
+if(window.location.pathname == '/about.html'){
+    console.log('haloo')
+    // window.location.href='https://tasainteriordesigner.com/index.html';
+}else if(window.location.pathname == '/our-clients/'){
+    window.location.href='https://tasainteriordesigner.com/index.html';
+    
+}
